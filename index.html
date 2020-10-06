@@ -7,40 +7,134 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="header">
-        <div class="wrap">
-                <div class="logo">
-            <span class="none">noemi</span>
-            <a href="#"><img class="logo-image" src="svg/noemi-logo.svg"/></a>
-            </div>
-            <div class="topmenu">
-                     <ul class="link">
-                     <li>
-                         <a href="#">главная</a>
-                     </li>
-                     <li>
-                         <a href="#">посты</a>
-                     </li>
-                     <li>
-                         <a href="#">статьи</a>
-                     </li>
-                     <li>
-                         <a href="#">теги</a>
-                     </li>
-                     <li>
-                         <a href="#">темы</a>
-                     </li>
-               <li>
-                         <a href="#">контакты</a>
-                     </li>
-                     </ul>
-     </div>
+ <div class="header">
+   <div class="wrap">
+      <div class="logo">
+        <span class="none">noemi</span>
+        <a href="#"><img class="logo-image" src="svg/noemi-logo.svg"/></a>
+      </div>
+       <div class="topmenu">
+        <ul class="link">
+         <li>
+            <a href="#">главная</a>
+         </li>
+         <li>
+            <a href="#">посты</a>
+         </li>
+         <li>
+            <a href="#">статьи</a>
+          </li>
+          <li>
+             <a href="#">теги</a>
+           </li>
+           <li>
+             <a href="#">темы</a>
+           </li>
+           <li>
+             <a href="#">контакты</a>
+           </li>
+           </ul>
+          </div>
     </div>
-        <div class="main-header">
-          <h1>блог о творчестве, спорте, и образе жизни</h1>
+    <div class="burger">
+      <span class="none">burger</span>
+      <a href="#"><img class="burger-menu" src="svg/burger-menu.svg"/></a>
+     </div>
+  <div class="main-header">
+    <h1>блог о творчестве, спорте, и образе жизни</h1>
+     </div>
+      </div>
+  <div class="trends">
+          <h2>сейчас в тренде</h2>
+         <!-- <div class="img-trends">
+            <div class="trend">
+          <img src="images/trend1.jpg" alt="">
+          </div>
+          <div class="trend">
+            <img src="images/trend2.jpg" alt="">
+          </div>
+          <div class="trend">
+            <img src="images/trend3.jpg" alt="">
+          </div>
+          <div class="trend">
+            <img src="images/trend4.jpg" alt="">
+          </div>
+        </div>-->
+        <section class="trend-blocks">
+         
+          <article  class="trend_block">
+            <div class="trend1">
+          <div class="section-name">
+            <ul>
+              <li>
+                <a href="#">lifestyle</a>
+              </li>
+              <li>
+            <a href="">interior</a>
+              </li>
+            </ul>
+          </div>
+         <div class="trend_news">
+          <h4><a href="#">сейчас в тренде: сад на подоконнике</a></h4>
+         </div>
+            </div>
+        </article>
+       <article  class="trend_block">
+          <div class="trend2">
+          <div class="section-name">
+            <ul>
+              <li>
+                <a href="#">food</a>
+              </li>
+            </ul>
+          </div>
+         <div class="trend_news">
+          <h4><a href="#">сыры на красивых картинках из интернета: какие они на вкус?</a></h4>
+         </div>
         </div>
-       </div> 
-     <div class="main">
+        </article>
+      
+      
+        <article  class="trend_block">
+          <div class="trend3">
+          <div class="section-name">
+            <ul>
+              <li>
+                <a href="#">lifestyle</a>
+              </li>
+              <li>
+            <a href="">travel</a>
+              </li>
+            </ul>
+          </div>
+         <div class="trend_news">
+          <h4><a href="#">собираемся в первый поход в горы</a></h4>
+         </div>
+        </div>
+        </article>
+      
+      
+        <article  class="trend_block">
+          <div class="trend4">
+          <div class="section-name">
+            <ul>
+              <li>
+                <a href="#">food</a>
+              </li>
+              <li>
+            <a href="">healh</a>
+              </li>
+            </ul>
+          </div>
+         <div class="trend_news">
+          <h4><a href="#">сейчас в тренде: сколько витамина с в лимонах?</a></h4>
+         </div>
+        </div>
+        </article>
+      </section>
+        
+
+      <div class="main">
        <main class="left-side">
          <div class="news-block">
          <div class="images">
@@ -115,7 +209,7 @@
              <span>неизвестный</span> автор</div>
          </div>
          <article class="article">
-           <p><span>лето</span>на носу, а с ним и музыкальные фестивали.<span>на</span>каком же из них вы разобьете свою палатку?</p>
+           <p><span>лето</span> на носу, а с ним и музыкальные фестивали.<span>на</span> каком же из них вы разобьете свою палатку?</p>
            <p><span>мы</span> составили список лучших летних фестивалей по всему миру.</p>
          </article>
        </section>
@@ -162,7 +256,7 @@
            <h2><a href="#">делаем модные принты на подушках для интерьера</a></h2>
          </div>
          <div class="date-author">
-           <div class="date">10 июня 2019</div>
+           <span class="date">10 июня 2019</span>
            <div class="author">
              <span>неизвестный</span> автор</div>
          </div>
@@ -184,21 +278,17 @@
              <img class="image-second" src="images/2.jpg" alt="">
            </div>
           <div class="date-header">
-           <div class="date">14 июня 2019</div>
-            <div class="header-article">
-              <h4><a href="#">10 мест, ради которых стоит проснуться</a></h4>
-            </div>
-           </div>
+           <span class="date">14 июня 2019</span>
+           <h4><a href="#">10 мест, ради которых стоит проснуться</a></h4>
+          </div>
          </section>
          <section class="news">
            <div class="images">
              <img class="image-second" src="images/151.jpg" alt="">
            </div>
           <div class="date-header">
-           <div class="date">14 июня 2019</div>
-            <div class="header-article">
-              <h4><a href="#">йога для домашних</a></h4>
-            </div>
+           <span class="date">14 июня 2019</span>
+           <h4><a href="#">йога для домашних</a></h4>
            </div>
          </section>
          <section class="news">
@@ -206,10 +296,8 @@
              <img class="image-second" src="images/45.jpg" alt="">
            </div>
           <div class="date-header">
-           <div class="date">14 июня 2019</div>
-            <div class="header-article">
-              <h4><a href="#">как мы превратили классное место в балкон</a></h4>
-            </div>
+           <span class="date">14 июня 2019</span>
+           <h4><a href="#">как мы превратили классное место в балкон</a></h4>
            </div>
          </section>
          <section class="news">
@@ -217,10 +305,8 @@
              <img class="image-second" src="images/501.jpg" alt="">
            </div>
           <div class="date-header">
-           <div class="date">14 июня 2019</div>
-            <div class="header-article">
-              <h4><a href="#">кулинарный подход к науке</a></h4>
-            </div>
+           <span class="date">14 июня 2019</span>
+           <h4><a href="#">кулинарный подход к науке</a></h4>
            </div>
          </section>
          <section class="news">
@@ -228,11 +314,9 @@
              <img class="image-second" src="images/7.jpg" alt="">
            </div>
           <div class="date-header">
-           <div class="date">14 июня 2019</div>
-            <div class="header-article">
-              <h4><a href="#">лучшие прически для распущенных волос</a></h4>
+           <span class="date">14 июня 2019</span>
+           <h4><a href="#">лучшие прически для распущенных волос</a></h4>
             </div>
-           </div>
          </section>
          </div>
          <form>
@@ -291,6 +375,49 @@
            </section>
        </aside>
      </div>
+     <aside>
+      <div class="store">
+        <h3>наши изделия</h3>
+        <div class="images-store">
+          <img class="image-store" src="images/shop-item-desk1.jpg" alt="">
+          <img class="image-store" src="images/shop-item-desk2.jpg" alt="">
+          <img class="image-store" src="images/shop-item-desk3.jpg" alt="">
+        </div>
+        <div class="store-blocks">
+          <div class="store-block">
+            <h4>подушки на диван</h4>
+            <p><span>набор</span> из двух подушек с модными принтами. <span>видео</span> о создании <a href="#">здесь</a>.</p>
+            <div class="price_bottom">
+              <div class="price">
+            <div class="price1">1000 &#8381;</div>
+            <div class="price2">800 &#8381;</div>
+          </div>
+            <button class="button" name="button">в магазин</button>
+          </div>
+         </div>
+          <div class="store-block">
+            <h4>кукла "зайчик"</h4>
+            <p><span>интерьерная</span> рукодельная кукла <span>"зайчик"</span>, созданию которой посвящена <a href="#"> весенняя серия постов</a> в блоге и несколько подкастов.</p>
+            <div class="price_bottom">
+              <div class="price">
+            <div class="price2">3500 &#8381;</div>
+          </div>
+            <button class="button" name="button">в магазин</button>
+          </div>
+          </div>
+          <div class="store-block">
+            <h4>шестиугольная рамка</h4>
+            <p><span>необычная</span> рамка для украшения дома из видео <a href="#">"как сделать рамку из подручных средств за 30 минут"</a></p>
+            <div class="price_bottom">
+              <div class="price">
+            <div class="price1">500 &#8381;</div>
+            <div class="price2">400 &#8381;</div>
+          </div>
+            <button class="button" name="button">в магазин</button>
+          </div>
+        </div>
+      </div>
+    </aside>
        <footer class="footer">
          <div class="background">
            <ul class="socials">
